@@ -11,8 +11,8 @@
 }
 
 body {
-  background-color: var(--pale-blue);
   font-family: "Red Hat Display", sans-serif;
+  background-color: var(--pale-blue);
   background-image: url(images/pattern-background-mobile.svg);
   background-repeat: no-repeat;
   background-size: contain;
@@ -64,6 +64,13 @@ h1 {
   min-height: 5rem;
 }
 
+.icon-music {
+  background-image: url(images/icon-music.svg);
+  background-position: center;
+  height: 3rem;
+  width: 3rem;
+}
+
 .plan-price,
 .plan-time {
   margin: 0 1.5rem 0 0;
@@ -100,9 +107,8 @@ h1 {
   padding: 1rem;
   border-style: none;
   border-radius: 0.8rem;
-  transition: 50ms ease;
+  transition: 150ms ease;
 }
-
 .payment:hover {
   cursor: pointer;
   background-color: black;
@@ -112,15 +118,13 @@ h1 {
   font-family: "Red Hat Display", sans-serif;
   font-weight: 700;
   font-size: 0.9rem;
-  background-color: white;
-  border: none;
-  color: var(--desaturated-blue);
-  margin: 1rem 7rem 0;
   text-decoration: none;
-  font-weight: 700;
-  transition: 50ms ease;
+  background-color: white;
+  color: var(--desaturated-blue);
+  border: none;
+  margin: auto;
+  transition: 150ms ease;
 }
-
 .cancel:hover {
   text-decoration: underline;
   color: black;
@@ -135,12 +139,11 @@ footer {
 .f_a {
   color: var(--bright-blue);
 }
-
 .f_a:hover {
   color: black;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 400px) {
   body {
     background-image: url(images/pattern-background-desktop.svg);
   }
