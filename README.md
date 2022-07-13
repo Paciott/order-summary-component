@@ -56,4 +56,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@Paciott](https://github.com/Paciott)
+- Frontend Mentor - [@Paciott](https://www.frontendmentor.io/profile/Paciott)
